@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freelance web</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="barra">
+            <a href="#nav" class="mobile-menu">
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <nav id="nav">
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="cerrar">
+                    <i class="fas fa-times"></i>
+                </a>
+            </nav>
+        </div>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>I'm freelance</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="#contact" class="boton"> C o n t a c t </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slogan">
+            <h2>YOUR FAVOURITE SLOGAN HERE</h2>
+        </div>
+        <div class="services" id="services">
+            <article class="art1">
+                <h3>Smarter</h3>
+                <i class="fab fa-earlybirds"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <a href="#" class="boton">Know more</a>
+            </article>
+            <article class="art2">
+                <h3>Faster</h3>
+                <i class="fas fa-fighter-jet"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <a href="#" class="boton">Know more</a>
+            </article>
+            <article class="art3">
+                <h3>Cheaper</h3>
+                <i class="far fa-money-bill-alt"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <a href="#" class="boton">Know more</a>
+            </article>
+        </div>
+        <div class="testimonials" id="testimonials">
+            <div class="testimonials-title">
+                <h2>Customers talk...</h2>
+            </div>
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <q>High recommended professional</q>
+                    <p class="author">- Sarah Lee: UX designer -</p>
+                </div>
+
+                <div class="mySlides">
+                    <q>Top quality results</q>
+                    <p class="author">- Pedro de Bernardo: Enterpreuner -</p>
+                </div>
+
+                <div class="mySlides">
+                    <q>A great professional</q>
+                    <p class="author">- Toby Sand: Web developer -</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div class="works" id="works">
+            <h2>Works</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="img/san-carlino.jpeg" alt="san carlino photo">
+                    <img src="img/2-girls-kiss.jpeg">
+                    <img src="img/aborigen.jpeg">
+                    <img src="img/bear-swim.png">
+                    <img src="img/black-boy.jpeg">
+                    <img src="img/boy_1.jpeg">
+                </div>
+                <div class="column">
+                    <img src="img/Chinatown.jpeg">
+                    <img src="img/cloud-ice-cream.jpeg">
+                    <img src="img/colors-building.jpeg">
+                    <img src="img/crashed-airplane.jpeg">
+                    <img src="img/cristal-building.jpeg">
+                    <img src="img/cubana.jpeg">
+                    <!-- <img src="img/old-man.jpeg"> -->
+                </div>
+                <div class="column">
+                    <img src="img/greek-village.jpeg">
+                    <img src="img/latin-sleep.jpeg">
+                    <img src="img/laugh.jpeg">
+                    <img src="img/lighthouse.jpeg">
+                    <img src="img/main-profile-photo.jpg">
+                    <img src="img/medusas.jpeg">
+                </div>
+                <div class="column">
+                    <img src="img/old-woman-desert-old-age-bedouin.jpeg">
+                    <img src="img/san-carlino2.jpeg">
+                    <img src="img/smarties.jpeg">
+                    <img src="img/tattoo-b-w.jpeg">
+                    <img src="img/two-salads.jpeg">
+                    <img src="img/views.jpeg">
+                    <img src="img/burguer-topping.jpeg">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="pie" id="contact">
+        <div class="footer-top">
+            <div class="footer-left">
+                <h5>CONTACT</h5>
+                <h6><i class="fas fa-map-marker-alt"></i></h6>
+                <h6><i class="fas fa-mobile-alt"></i></h6>
+                <h6><i class="far fa-envelope"></i></h6>
+            </div>
+            <div class="footer-right">
+                <h5>SOCIAL</h5>
+                <h6><i class="fab fa-facebook"></i></h6>
+                <h6><i class="fab fa-twitter"></i></h6>
+                <h6><i class="fab fa-instagram"></i></h6>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &copy; All rights reserved. Designed by <a href="https://www.websitestory.com.es" target="_blank">WebSiteStory</a></p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
